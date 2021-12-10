@@ -17,8 +17,6 @@ function titleCased(tutorials){
     const arrTwo = arr.map( x => {
       return x.charAt(0).toUpperCase() + x.slice(1)
     })
-    const arrThree = arrTwo.map(x =>{
       return x.join(' ')
     })
-  })
-}
+  }
